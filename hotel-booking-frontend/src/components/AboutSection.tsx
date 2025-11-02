@@ -1,6 +1,6 @@
 const AboutSection = () => {
   return (
-    <section className="mt-12">
+    <section className="mt-12" id="about">
       <div className="w-auto rounded-3xl overflow-hidden bg-gradient-to-br from-amber-50 via-white to-indigo-50 ring-1 ring-indigo-100/60 m-8 border-2">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
           {/* --- Title --- */}
@@ -29,8 +29,9 @@ const AboutSection = () => {
             Puducherry's premier waterfront retreat, offering a unique blend of
             luxury and tranquility aboard our docked boatel. Nestled beside the
             serene backwaters and just a stone's throw from the pristine Eden
-            Beach, we offer an unparalleled experience. <br />
-            <br />
+            Beach, we offer an unparalleled experience..
+             {/* <br />
+            <br /> */}
             Family-founded and locally inspired, our boatel is run by
             hospitality professionals who are passionate about providing
             exceptional service and making every guest's stay truly special. We
@@ -38,13 +39,14 @@ const AboutSection = () => {
             charm of Puducherry's natural beauty. Our thoughtfully designed
             spaces reflect a serene maritime theme, blending modern amenities
             with rustic elegance to create an atmosphere of relaxed
-            sophistication. <br />
-            <br />
+            sophistication.
+             {/* <br />
+            <br /> */}
             Enjoy breathtaking views of the estuary, indulge in delectable local
             and international cuisine at our onboard restaurant, and rejuvenate
             your senses with our exclusive spa services.
-            <br />
-            <br />
+            {/* <br />
+            <br /> */}
             Whether you are seeking a romantic getaway, a family vacation, or a
             unique event venue, Estuary Dreamz BOATEL promises an unforgettable
             experience. We also offer special packages for honeymoons, corporate

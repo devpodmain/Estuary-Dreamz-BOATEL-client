@@ -57,7 +57,7 @@ This frontend serves as the **user interface** for a comprehensive hotel booking
 ```bash
 # Clone the repository
 git clone https://github.com/arnobt78/MERN-Hotel-Booking--React-FullStack.git
-cd hotel-booking-frontend
+cd hotel-estuary-dreamz-BOATEL
 
 # Install dependencies
 npm install
@@ -90,7 +90,7 @@ VITE_GOOGLE_ANALYTICS_ID=GA_MEASUREMENT_ID
 ## 📁 Project Structure
 
 ```bash
-hotel-booking-frontend/
+hotel-estuary-dreamz-BOATEL/
 ├── public/
 │   └── vite.svg                # App icon and favicon
 ├── src/

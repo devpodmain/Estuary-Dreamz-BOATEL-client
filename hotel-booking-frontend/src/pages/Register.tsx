@@ -86,13 +86,13 @@ const Register = () => {
         {/* Modern Card Container */}
         <Card className="relative overflow-hidden border-0 shadow-2xl bg-white/95 backdrop-blur-sm">
           {/* Decorative Background Elements */}
-          <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-primary-500 to-primary-600"></div>
-          <div className="absolute -top-4 -right-4 w-24 h-24 bg-primary-100 rounded-full opacity-50"></div>
-          <div className="absolute -bottom-4 -left-4 w-16 h-16 bg-primary-200 rounded-full opacity-30"></div>
+          <div className="absolute top-0 left-0 w-full h-1 bg-[#0a1f3d]"></div>
+          <div className="absolute -top-4 -right-4 w-24 h-24 bg-[#4db6ac] rounded-full opacity-50"></div>
+          <div className="absolute -bottom-4 -left-4 w-16 h-16 bg-[#c8b39d] rounded-full opacity-30"></div>
 
           {/* Header */}
           <CardHeader className="text-center relative z-10 pb-8">
-            <div className="mx-auto w-16 h-16 bg-gradient-to-br from-primary-500 to-primary-600 rounded-2xl flex items-center justify-center mb-4 shadow-lg">
+            <div className="mx-auto w-16 h-16 bg-gradient-to-r from-[#0a1f3d] via-[#4db6ac] to-[#c8b39d] rounded-2xl flex items-center justify-center mb-4 shadow-lg">
               <UserPlus className="w-8 h-8 text-white" />
             </div>
             <CardTitle className="text-3xl font-bold text-gray-900 mb-2">
@@ -344,7 +344,7 @@ const Register = () => {
               <Button
                 type="submit"
                 disabled={isLoading}
-                className="w-full py-3 px-4 rounded-md text-white bg-gradient-to-r from-primary-600 to-primary-700 hover:from-primary-700 hover:to-primary-800 transition-all duration-200 transform hover:scale-[1.02] disabled:opacity-50 disabled:cursor-not-allowed shadow-lg"
+                className="w-full py-3 px-4 rounded-md text-white bg-gradient-to-r from-[#0a1f3d] via-[#4db6ac] to-[#c8b39d] hover:from-primary-700 hover:to-primary-800 transition-all duration-200 transform hover:scale-[1.02] disabled:opacity-50 disabled:cursor-not-allowed shadow-lg"
               >
                 {isLoading ? (
                   <div className="flex items-center">
@@ -373,7 +373,7 @@ const Register = () => {
                   Already have an account?{" "}
                   <Link
                     to="/sign-in"
-                    className="font-semibold text-primary-600 hover:text-primary-700 transition-colors duration-200 underline decoration-2 underline-offset-2"
+                    className="font-semibold text-[#4db6ac] hover:text-primary-700 transition-colors duration-200 underline decoration-2 underline-offset-2"
                   >
                     Sign in here
                   </Link>

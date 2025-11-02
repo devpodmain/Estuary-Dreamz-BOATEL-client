@@ -1,6 +1,6 @@
 const ContactSection = () => {
   return (
-    <section className="mt-12">
+    <section className="mt-12" id="contact">
       <div className="relative w-auto rounded-3xl overflow-hidden bg-gradient-to-r from-[#0a1f3d] via-[#4db6ac] to-[#c8b39d] text-[#f5f5f5] m-4 sm:m-6 md:m-8 border-2">
         {/* Background Image */}
         {/* <img
