@@ -1,14 +1,14 @@
 const ContactSection = () => {
   return (
     <section className="mt-12">
-      <div className="relative w-auto rounded-3xl overflow-hidden bg-gradient-to-br from-indigo-700 via-indigo-600 to-fuchsia-600 m-4 sm:m-6 md:m-8 border-2">
+      <div className="relative w-auto rounded-3xl overflow-hidden bg-gradient-to-r from-[#0a1f3d] via-[#4db6ac] to-[#c8b39d] text-[#f5f5f5] m-4 sm:m-6 md:m-8 border-2">
         {/* Background Image */}
-        <img
+        {/* <img
           src="/Boatel%20Swim%20Pool%20View.jpeg"
           alt="Boatel pool view"
           className="absolute inset-0 w-full h-full object-cover opacity-25"
           aria-hidden="true"
-        />
+        /> */}
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 text-white">
           {/* Header */}

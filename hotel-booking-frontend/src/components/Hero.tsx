@@ -2,7 +2,7 @@ import { Search, Calendar, Users } from "lucide-react";
 
 const Hero = () => {
   return (
-    <section className="relative bg-gradient-to-br from-indigo-500 via-slate-600 to-fuchsia-700 overflow-hidden">
+    <section className="relative overflow-hidden">
       {/* Background Image */}
       <img
         src="/Boatel%20Front%20View.jpeg"
@@ -24,7 +24,7 @@ const Hero = () => {
         <div className="text-center max-w-4xl mx-auto">
           <h1 className="text-3xl md:text-5xl font-bold text-white m-4 leading-tight tracking-tight">
             Welcome to Estuary Dreamz BOATEL
-            <span className="text-2xl md:text-3xl block bg-gradient-to-r from-yellow-400 to-orange-400 bg-clip-text italic text-transparent my-10">
+            <span className="text-2xl md:text-3xl block bg-[#c8b39d] bg-clip-text italic text-transparent my-10">
               Puducherry's Unique Water-front Boatel. Book Now!
             </span>
           </h1>
@@ -33,7 +33,7 @@ const Hero = () => {
           <div className="flex flex-wrap justify-center items-center gap-4 md:gap-8 my-4 md:my-6">
             {/* Smart Search */}
             <div className="flex items-center bg-white/10 backdrop-blur-sm rounded-full px-5 py-2 shadow-lg ring-1 ring-indigo-500/20 min-w-[180px] justify-center">
-              <Search className="w-5 h-5 text-yellow-400 mr-2 shrink-0" />
+              <Search className="w-5 h-5 text-[#c8b39d] mr-2 shrink-0" />
               <span className="text-white/90 font-medium text-sm sm:text-base">
                 Smart Search
               </span>
@@ -41,7 +41,7 @@ const Hero = () => {
 
             {/* Flexible Booking */}
             <div className="flex items-center bg-white/10 backdrop-blur-sm rounded-full px-5 py-2 shadow-lg ring-1 ring-indigo-500/20 min-w-[180px] justify-center">
-              <Calendar className="w-5 h-5 text-yellow-400 mr-2 shrink-0" />
+              <Calendar className="w-5 h-5 text-[#c8b39d] mr-2 shrink-0" />
               <span className="text-white/90 font-medium text-sm sm:text-base">
                 Flexible Booking
               </span>
@@ -49,7 +49,7 @@ const Hero = () => {
 
             {/* 24/7 Support */}
             <div className="flex items-center bg-white/10 backdrop-blur-sm rounded-full px-5 py-2 shadow-lg ring-1 ring-indigo-500/20 min-w-[180px] justify-center">
-              <Users className="w-5 h-5 text-yellow-400 mr-2 shrink-0" />
+              <Users className="w-5 h-5 text-[#c8b39d] mr-2 shrink-0" />
               <span className="text-white/90 font-medium text-sm sm:text-base">
                 24/7 Support
               </span>
@@ -90,7 +90,7 @@ const Hero = () => {
         <section className="max-w-full mx-auto px-4 sm:px-6 lg:px-8 mt-4">
           <div className="p-6 grid lg:grid-cols-4 md:grid-cols-2 gap-16">
             {/* 1. Beach Walks & Relaxation */}
-            <div className="flex flex-col items-center text-center bg-white p-10 rounded-xl shadow-lg hover:shadow-2xl hover:-translate-y-0.5 transition-all duration-300">
+            <div className="flex flex-col items-center text-center bg-gradient-to-r from-[#0a1f3d] via-[#4db6ac] to-[#c8b39d] text-[#f5f5f5] p-10 rounded-xl shadow-lg hover:shadow-2xl hover:-translate-y-0.5 transition-all duration-300">
               <svg xmlns="http://www.w3.org/2000/svg" className="w-10 h-10 mb-3 text-primary-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 4a1 1 0 011-1h16a1 1 0 011 1v16l-5-3-5 3-5-3-5 3V4z" />
               </svg>
@@ -103,7 +103,7 @@ const Hero = () => {
             </div>
 
             {/* 2. Swimming & Beach Games */}
-            <div className="flex flex-col items-center text-center bg-white p-10 rounded-xl shadow-lg hover:shadow-2xl hover:-translate-y-0.5 transition-all duration-300">
+            <div className="flex flex-col items-center text-center bg-gradient-to-r from-[#0a1f3d] via-[#4db6ac] to-[#c8b39d] text-[#f5f5f5] p-10 rounded-xl shadow-lg hover:shadow-2xl hover:-translate-y-0.5 transition-all duration-300">
               <svg xmlns="http://www.w3.org/2000/svg" className="w-10 h-10 mb-3 text-yellow-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2 12s4-8 10-8 10 8 10 8-4 8-10 8S2 12 2 12z" />
               </svg>
@@ -116,7 +116,7 @@ const Hero = () => {
             </div>
 
             {/* 3. Observe Traditional Fishing */}
-            <div className="flex flex-col items-center text-center bg-white p-10 rounded-xl shadow-lg hover:shadow-2xl hover:-translate-y-0.5 transition-all duration-300">
+            <div className="flex flex-col items-center text-center bg-gradient-to-r from-[#0a1f3d] via-[#4db6ac] to-[#c8b39d] text-[#f5f5f5] p-10 rounded-xl shadow-lg hover:shadow-2xl hover:-translate-y-0.5 transition-all duration-300">
               <svg xmlns="http://www.w3.org/2000/svg" className="w-10 h-10 mb-3 text-blue-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M2 16l10-10 10 10H2z" />
               </svg>
@@ -129,7 +129,7 @@ const Hero = () => {
             </div>
 
             {/* 4. Photography & Sunset Views */}
-            <div className="flex flex-col items-center text-center bg-white p-10 rounded-xl shadow-lg hover:shadow-2xl hover:-translate-y-0.5 transition-all duration-300">
+            <div className="flex flex-col items-center text-center bg-gradient-to-r from-[#0a1f3d] via-[#4db6ac] to-[#c8b39d] text-[#f5f5f5] p-10 rounded-xl shadow-lg hover:shadow-2xl hover:-translate-y-0.5 transition-all duration-300">
               <svg xmlns="http://www.w3.org/2000/svg" className="w-10 h-10 mb-3 text-green-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16l4-4-4-4m6 8h10M10 8h10" />
               </svg>

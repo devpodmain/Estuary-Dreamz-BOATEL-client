@@ -71,7 +71,7 @@ const GallerySection = () => {
   return (
     <div
       id="gallery"
-      className="w-full py-12 bg-gradient-to-b from-transparent to-white relative overflow-hidden"
+      className="w-full py-12 bg-gradient-to-r from-[#0a1f3d] via-[#4db6ac] to-[#c8b39d] text-[#f5f5f5] relative overflow-hidden"
     >
       <div className="absolute inset-0 bg-gradient-to-b from-white/20 via-transparent to-white/70" />
 
@@ -85,7 +85,7 @@ const GallerySection = () => {
             ref={galleryRef}
             onMouseEnter={() => setIsPaused(true)}
             onMouseLeave={() => setIsPaused(false)}
-            className="flex gap-6 bg-transparent overflow-x-auto scroll-smooth snap-x snap-mandatory no-scrollbar p-4"
+            className="flex gap-4 bg-transparent overflow-x-auto scroll-smooth snap-x snap-mandatory no-scrollbar p-4"
           >
             <style>{`.no-scrollbar::-webkit-scrollbar { display: none; }`}</style>
 

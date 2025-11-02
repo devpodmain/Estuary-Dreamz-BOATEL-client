@@ -12,7 +12,7 @@ import logo from '../../public/BOATEL.png'
 
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-r from-primary-800 to-primary-900 text-white">
+    <footer className="bg-gradient-to-r from-[#0a1f3d] via-[#4db6ac] to-[#c8b39d] text-[#f5f5f5] text-white">
       <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
@@ -164,11 +164,11 @@ const Footer = () => {
             <h3 className="text-lg font-semibold">Contact Us</h3>
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
-                <Mail className="w-5 h-5 text-primary-300" />
+                <Mail className="w-5 h-5 text-[#0a1f3d]" />
                 <span className="text-gray-300">info@estuarydreamzboatel.com</span>
               </div>
               <div className="flex items-center space-x-3">
-                <Phone className="w-5 h-5 text-primary-300" />
+                <Phone className="w-5 h-5 text-[#0a1f3d]" />
                 <span className="text-gray-300">9047047567 / 9047856736 / 0413-2975667</span>
               </div>
               {/* <div className="flex items-center space-x-3">
@@ -176,7 +176,7 @@ const Footer = () => {
                 <span className="text-gray-300">Landline: </span>
               </div> */}
               <div className="flex items-center space-x-3">
-                <MapPin className="w-10 h-10 text-primary-300" />
+                <MapPin className="w-10 h-10 text-[#0a1f3d]" />
                 <span className="text-gray-300">
                   No 70/28, Anthony Udaiyar Street, Manavely, ChinnaVeeramPattinam, <br />Puducherry, 605007
                   {/* Next to Radisson Hotel, Near Eden Beach, via Pondy-Cuddalore Road.<br />
@@ -188,7 +188,7 @@ const Footer = () => {
         </div>
 
         {/* Bottom Bar */}
-        <div className="border-t border-primary-700 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
+        <div className="border-t border-[#0a1f3d] mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-300 text-sm">
             © 2025 Estuary Dreamz BOATEL. All rights reserved.
           </p>
