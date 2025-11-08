@@ -1,4 +1,5 @@
 import { Search, Calendar, Users } from "lucide-react";
+import destiny from '../../public/Destiny DreamZ Villa.png'
 
 const Hero = () => {
   return (
@@ -55,6 +56,26 @@ const Hero = () => {
               </span>
             </div>
           </div>
+         
+<div className="flex flex-col items-center bg-white/10 backdrop-blur-md rounded-xl px-6 py-4 shadow-lg ring-1 ring-indigo-500/20 min-w-[220px] text-center">
+  <h3 className="text-3xl md:text-4xl bg-[#c8b39d] bg-clip-text italic text-transparent my-2">
+    Visit our another hotel
+  </h3>
+  
+  <a
+    href=""
+    className="block text-xl md:text-2xl font-semibold text-[#c8b39d] italic underline cursor-pointer hover:text-[#d6c2ad] transition-colors duration-200"
+  >
+    Destiny DreamZ Villa
+  </a>
+
+  <img
+    src={destiny}
+    alt="Destiny DreamZ Villa"
+    className="w-40 h-24 md:w-48 md:h-28 mt-3 rounded-xl shadow-md object-cover"
+  />
+</div>
+
 
           {/* <h3 className="text-xl md:text-5xl font-extrabold text-orange-300 my-6 leading-tight">
             Book your water-front stay today
