@@ -13,16 +13,21 @@ const Hero = () => {
       />
 
       {/* Floating promo card */}
-      <div className="absolute right-2 top-2 flex flex-col items-center rounded-lg px-2 py-1 sm:px-3 sm:py-2 shadow-none text-center z-20 bg-transparent">
-  <h4 className="text-[9px] sm:text-sm text-[#c8b39d] italic font-semibold leading-tight">
-    Visit Our Another Hotel
-  </h4>
+      <a
+        href="https://destiny-dream-z-villa.vercel.app/" 
+        target="_blank"
+        rel="noopener noreferrer"
+        className="absolute right-2 top-2 flex flex-col items-center rounded-lg px-2 py-1 sm:px-3 sm:py-2 shadow-none text-center z-20 bg-transparent cursor-pointer"
+      >
+        <h4 className="text-[9px] sm:text-sm text-[#c8b39d] italic font-semibold leading-tight">
+          Visit Our Another Hotel
+        </h4>
 
-  <img
-    src={destiny}
-    alt="Destiny DreamZ Villa"
-className="w-14 h-10 sm:w-20 sm:h-16 md:w-28 md:h-18 mt-2 rounded-lg shadow-md object-cover hover:scale-105 transition-transform duration-300"  />
-</div>
+        <img src={destiny} alt="Destiny DreamZ Villa"
+          className="w-14 h-10 sm:w-20 sm:h-16 md:w-28 md:h-18 mt-2 rounded-lg shadow-md object-cover hover:scale-105 transition-transform duration-300"
+        />
+      </a>
+
 
 
       {/* Background Overlays */}
@@ -76,7 +81,7 @@ className="w-14 h-10 sm:w-20 sm:h-16 md:w-28 md:h-18 mt-2 rounded-lg shadow-md o
         <section className="max-w-full mx-auto px-4 sm:px-6 lg:px-8 mt-4">
           <div className="p-6 grid lg:grid-cols-4 md:grid-cols-2 gap-8 sm:gap-16">
             {/* 1. Beach Walks */}
-            <div className="flex flex-col items-center text-center bg-gradient-to-b from-[#0a1f3d] via-[#4db6ac] to-[#c8b39d] text-[#f5f5f5] p-8 rounded-xl shadow-lg hover:shadow-2xl hover:-translate-y-0.5 transition-all duration-300">
+            <div className="flex flex-col items-center text-center bg-gradient-to-b from-[#1b2b49] via-[#4db6ac] to-[#e8dcc8] text-[#f5f5f5] p-8 rounded-xl shadow-lg hover:shadow-2xl hover:-translate-y-0.5 transition-all duration-300">
               <svg xmlns="http://www.w3.org/2000/svg" className="w-10 h-10 mb-3 text-primary-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 4a1 1 0 011-1h16a1 1 0 011 1v16l-5-3-5 3-5-3-5 3V4z" />
               </svg>
