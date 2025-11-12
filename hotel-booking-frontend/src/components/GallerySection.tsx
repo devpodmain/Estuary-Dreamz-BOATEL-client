@@ -7,10 +7,10 @@ const GallerySection = () => {
     () => [
       "/Boatel%20Front%20View.jpeg",
       "/Boatel%20Building%20View%201.jpeg",
+      "/Boatel%20Building%20View%20Bedrrom%202.jpeg",
       "/Boatel%20Building%20View%202.jpeg",
       "/Boatel%20Swim%20Pool%20View.jpeg",
       "/Boatel%20Bedroom.jpeg",
-      "/Boatel%20Building%20View%20Bedrrom%202.jpeg",
     ],
     []
   );
@@ -71,7 +71,7 @@ const GallerySection = () => {
   return (
     <div
       id="gallery"
-      className="w-full py-12 bg-gradient-to-r from-[#0a1f3d] via-[#4db6ac] to-[#c8b39d] text-[#f5f5f5] relative overflow-hidden"
+      className="w-full py-12 bg-gradient-to-r from-[#254D70] via-[#4db6ac] to-[#EFE4D2] text-[#f5f5f5] relative overflow-hidden"
     >
       <div className="absolute inset-0 bg-gradient-to-b from-white/20 via-transparent to-white/70" />
 

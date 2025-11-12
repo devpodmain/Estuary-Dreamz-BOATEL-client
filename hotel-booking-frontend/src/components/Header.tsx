@@ -22,24 +22,24 @@ const Header = () => {
 
   return (
     <>
-      <header className="bg-gradient-to-r from-[#1b2b49] via-[#4db6ac] to-[#e8dcc8] shadow-large sticky top-0 z-50">
-        <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
+      <header className="bg-gradient-to-r from-[#254D70] via-[#4db6ac] to-[#EFE4D2] shadow-large sticky top-0 z-50">
+        <div className="max-w-8xl mx-auto px-4 sm:px-4 lg:px-8">
           <div className="flex justify-between items-center py-3">
             {/* Logo */}
             <button onClick={handleLogoClick} className="flex items-center space-x-2 group">
               <div className="rounded-lg shadow-soft group-hover:shadow-medium transition-all duration-300">
                 <img src={logo} className="h-12 w-12 rounded-lg" />
               </div>
-              <span className="text-2xl font-bold text-white tracking-tight group-hover:text-primary-100 transition-colors">
+              <span className="text-2xl font-bold text-slate-800 tracking-tight transition-colors">
                 Estuary Dreamz BOATEL
               </span>
             </button>
 
             {/* Navigation */}
             <nav className="hidden md:flex items-center space-x-1">
-              <a href="#home" className="flex items-center text-white/90 hover:text-white px-4 py-2 rounded-lg font-medium hover:bg-white/10 transition-all duration-200 group">Home</a>
-              <a href="#about" className="flex items-center text-white/90 hover:text-white px-4 py-2 rounded-lg font-medium hover:bg-white/10 transition-all duration-200 group">About</a>
-              <a href="#contact" className="flex items-center text-white/90 hover:text-white px-4 py-2 rounded-lg font-medium hover:bg-white/10 transition-all duration-200 group">Contact</a>
+              <a href="#home" className="flex items-center text-slate/90 hover:text-white px-4 py-2 rounded-lg font-medium hover:bg-white/10 transition-all duration-200 group">Home</a>
+              <a href="#about" className="flex items-center text-slate/90 hover:text-white px-4 py-2 rounded-lg font-medium hover:bg-white/10 transition-all duration-200 group">About</a>
+              <a href="#contact" className="flex items-center text-slate/90 hover:text-white px-4 py-2 rounded-lg font-medium hover:bg-white/10 transition-all duration-200 group">Contact</a>
               {isLoggedIn ? (
                 <>
                   <Link className="flex items-center text-white/90 hover:text-white px-4 py-2 rounded-lg font-medium hover:bg-white/10 transition-all duration-200 group" to="/analytics">
@@ -65,7 +65,7 @@ const Header = () => {
                   <SignOutButton />
                 </>
               ) : (
-                <Link to="/sign-in" className="flex items-center bg-white text-primary-600 px-6 py-2 rounded-lg font-semibold hover:bg-primary-50 hover:shadow-medium transition-all duration-200 group">
+                <Link to="/sign-in" className="flex items-center bg-slate-800 text-white px-6 py-2 rounded-lg font-semibold hover:shadow-medium transition-all duration-200 group">
                   <LogIn className="w-4 h-4 mr-2 group-hover:scale-110 transition-transform" />
                   Sign In
                 </Link>

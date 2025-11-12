@@ -18,14 +18,14 @@ const AboutSection = () => {
           </div>
 
           {/* --- Intro Paragraph --- */}
-          <p className="text-slate-600 text-center mt-2 max-w-2xl mx-auto">
+          <p className="text-slate-900 text-center mt-2 max-w-2xl mx-auto">
             Experience Puducherry's unique water-front BOATEL with serene river
             views, modern comforts, and warm hospitality.
           </p>
 
           {/* --- Detailed Description --- */}
-          <p className="text-lg opacity-90 my-8 leading-relaxed text-slate-700">
-            <span className="font-semibold">Estuary Dreamz BOATEL</span> is
+          <p className="text-lg opacity-90 my-8 leading-relaxed text-slate-900">
+            <span className="font-semibold text-slate-900">Estuary Dreamz BOATEL</span> is
             Puducherry's premier waterfront retreat, offering a unique blend of
             luxury and tranquility aboard our docked boatel. Nestled beside the
             serene backwaters and just a stone's throw from the pristine Eden

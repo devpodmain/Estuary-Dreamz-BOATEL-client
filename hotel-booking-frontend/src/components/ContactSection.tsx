@@ -1,7 +1,7 @@
 const ContactSection = () => {
   return (
     <section className="mt-12" id="contact">
-      <div className="relative w-auto rounded-3xl overflow-hidden bg-gradient-to-r from-[#0a1f3d] via-[#4db6ac] to-[#c8b39d] text-[#f5f5f5] m-4 sm:m-6 md:m-8 border-2">
+      <div className="relative w-auto rounded-3xl overflow-hidden bg-gradient-to-b from-[#254D70] via-[#4db6ac] to-[#EFE4D2] text-[#f5f5f5] m-4 sm:m-6 md:m-8 border-2">
         {/* Background Image */}
         {/* <img
           src="/Boatel%20Swim%20Pool%20View.jpeg"
@@ -13,8 +13,8 @@ const ContactSection = () => {
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 text-white">
           {/* Header */}
           <div className="text-center">
-            <h2 className="text-2xl md:text-3xl font-extrabold">Contact Us</h2>
-            <p className="text-white/90 mt-2 max-w-3xl mx-auto text-sm sm:text-base md:text-lg leading-relaxed">
+            <h2 className="text-2xl md:text-3xl font-extrabold text-slate-900">Contact Us</h2>
+            <p className="text-slate-900 mt-2 max-w-3xl mx-auto text-sm sm:text-base md:text-md leading-relaxed">
               We’d love to hear from you! Reach out to us for bookings,
               inquiries, or any special requests. Our team is dedicated to
               providing you with the best possible experience at Estuary Dreamz
@@ -27,22 +27,22 @@ const ContactSection = () => {
             {/* Contact Info Card */}
             <div className="flex flex-col gap-5 bg-white/10 backdrop-blur rounded-2xl px-6 sm:px-8 py-8 sm:py-10 ring-1 ring-white/20 shadow-lg">
               <div className="space-y-3 text-base sm:text-lg leading-relaxed">
-                <div>
+                <div className="text-slate-900">
                   <b>Phone:</b>{" "}
-                  <a href="tel:9047047567" className="underline">
+                  <a href="tel:9047047567" >
                     +91 90470 47567
                   </a>{" "}
                   /{" "}
-                  <a href="tel:9047856736" className="underline">
+                  <a href="tel:9047856736" >
                     +91 90478 56736
                   </a>{" "}
                   /{" "}
-                  <a href="tel:04132975667" className="underline">
+                  <a href="tel:04132975667" >
                     0413 2975667
                   </a>
                 </div>
 
-                <div>
+                <div className="text-slate-900">
                   <b>Address:</b>
                   <br />
                   Estuary Dreamz BOATEL
@@ -54,7 +54,7 @@ const ContactSection = () => {
                   Puducherry - 605007
                 </div>
 
-                <div>
+                <div className="text-slate-900">
                   <b>Email:</b>{" "}
                   <a
                     href="mailto:info@estuarydreamzboatel.com"
@@ -66,10 +66,10 @@ const ContactSection = () => {
               </div>
 
               {/* Action Buttons */}
-              <div className="flex flex-wrap gap-3 pt-3">
+              <div className="flex flex-wrap gap-3 pt-3 justify-center">
                 <a
                   href="tel:9047047567"
-                  className="bg-white text-indigo-700 font-semibold px-5 py-2 rounded-xl hover:bg-indigo-50 transition-colors shadow w-full sm:w-auto text-center"
+                  className="bg-white text-slate-900 font-semibold px-5 py-2 rounded-xl hover:bg-indigo-50 transition-colors shadow w-full sm:w-auto text-center"
                 >
                   Call Now
                 </a>
@@ -77,16 +77,16 @@ const ContactSection = () => {
                   href="https://wa.me/919047047567"
                   target="_blank"
                   rel="noreferrer"
-                  className="bg-green-500 text-white font-semibold px-5 py-2 rounded-xl hover:bg-green-600 transition-colors shadow w-full sm:w-auto text-center"
+                  className="bg-slate-800 text-white font-semibold px-5 py-2 rounded-xl hover:bg-slate-800 transition-colors shadow w-full sm:w-auto text-center"
                 >
                   WhatsApp
                 </a>
-                <a
+                {/* <a
                   href="/search"
                   className="bg-indigo-800 text-white font-semibold px-5 py-2 rounded-xl hover:bg-indigo-900 transition-colors shadow w-full sm:w-auto text-center"
                 >
                   Book
-                </a>
+                </a> */}
               </div>
             </div>
 

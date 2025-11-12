@@ -12,7 +12,7 @@ import logo from '../../public/BOATEL.png'
 
 const Footer = () => {
   return (
-    <footer className="bg-gradient-to-r from-[#0a1f3d] via-[#4db6ac] to-[#c8b39d] text-[#f5f5f5] text-white">
+    <footer className="bg-gradient-to-r from-[#254D70] via-[#4db6ac] to-[#EFE4D2] text-slate-900 ">
       <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
@@ -25,7 +25,7 @@ const Footer = () => {
               {/* </div> */}
               <span className="text-2xl font-bold">Estuary Dreamz BOATEL</span>
             </div>
-            {/* <p className="text-gray-300 leading-relaxed">
+            {/* <p className="text-slate-800 leading-relaxed">
               No 70/28, Anthony Udaiyar Street,<br />
               Manavely, ChinnaVeeramPattinam<br />
               Puducherry, 605007<br />
@@ -40,27 +40,27 @@ const Footer = () => {
             <div className="flex space-x-4">
               <a
                 href="#"
-                className="text-gray-300 hover:text-white transition-colors"
+                className="text-slate-800 hover:text-white transition-colors"
               >
-                <Facebook className="w-5 h-5" />
+                <Facebook className="w-5 h-5 text-[#ECF4E8]" />
               </a>
               <a
                 href="#"
-                className="text-gray-300 hover:text-white transition-colors"
+                className="text-slate-800 hover:text-white transition-colors"
               >
-                <Twitter className="w-5 h-5" />
+                <Twitter className="w-5 h-5 text-[#ECF4E8]" />
               </a>
               <a
                 href="#"
-                className="text-gray-300 hover:text-white transition-colors"
+                className="text-slate-800 hover:text-white transition-colors"
               >
-                <Instagram className="w-5 h-5" />
+                <Instagram className="w-5 h-5 text-[#ECF4E8]" />
               </a>
               <a
                 href="#"
-                className="text-gray-300 hover:text-white transition-colors"
+                className="text-slate-800 hover:text-white transition-colors"
               >
-                <Linkedin className="w-5 h-5" />
+                <Linkedin className="w-5 h-5 text-[#ECF4E8]" />
               </a>
             </div>
           </div>
@@ -72,7 +72,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#"
-                  className="text-gray-300 hover:text-white transition-colors"
+                  className="text-slate-800 hover:text-white transition-colors"
                 >
                   Home
                 </a>
@@ -80,7 +80,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#"
-                  className="text-gray-300 hover:text-white transition-colors"
+                  className="text-slate-800 hover:text-white transition-colors"
                 >
                   Hotels
                 </a>
@@ -88,7 +88,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#"
-                  className="text-gray-300 hover:text-white transition-colors"
+                  className="text-slate-800 hover:text-white transition-colors"
                 >
                   Destinations
                 </a>
@@ -96,7 +96,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#"
-                  className="text-gray-300 hover:text-white transition-colors"
+                  className="text-slate-800 hover:text-white transition-colors"
                 >
                   About Us
                 </a>
@@ -104,7 +104,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#"
-                  className="text-gray-300 hover:text-white transition-colors"
+                  className="text-slate-800 hover:text-white transition-colors"
                 >
                   Contact
                 </a>
@@ -119,7 +119,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#"
-                  className="text-gray-300 hover:text-white transition-colors"
+                  className="text-slate-800 hover:text-white transition-colors"
                 >
                   Help Center
                 </a>
@@ -127,7 +127,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#"
-                  className="text-gray-300 hover:text-white transition-colors"
+                  className="text-slate-800 hover:text-white transition-colors"
                 >
                   Booking Guide
                 </a>
@@ -135,7 +135,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#"
-                  className="text-gray-300 hover:text-white transition-colors"
+                  className="text-slate-800 hover:text-white transition-colors"
                 >
                   Cancellation Policy
                 </a>
@@ -143,7 +143,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#"
-                  className="text-gray-300 hover:text-white transition-colors"
+                  className="text-slate-800 hover:text-white transition-colors"
                 >
                   Privacy Policy
                 </a>
@@ -151,7 +151,7 @@ const Footer = () => {
               <li>
                 <a
                   href="#"
-                  className="text-gray-300 hover:text-white transition-colors"
+                  className="text-slate-800 hover:text-white transition-colors"
                 >
                   Terms of Service
                 </a>
@@ -164,20 +164,20 @@ const Footer = () => {
             <h3 className="text-lg font-semibold">Contact Us</h3>
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
-                <Mail className="w-5 h-5 text-[#0a1f3d]" />
-                <span className="text-gray-300">info@estuarydreamzboatel.com</span>
+                <Mail className="w-5 h-5 text-[#ECF4E8]" />
+                <span className="text-slate-800">info@estuarydreamzboatel.com</span>
               </div>
               <div className="flex items-center space-x-3">
-                <Phone className="w-5 h-5 text-[#0a1f3d]" />
-                <span className="text-gray-300">9047047567 / 9047856736 / 0413-2975667</span>
+                <Phone className="w-5 h-5 text-[#ECF4E8]" />
+                <span className="text-slate-800">9047047567 / 9047856736 / 0413-2975667</span>
               </div>
               {/* <div className="flex items-center space-x-3">
                 <Phone className="w-5 h-5 text-primary-300" />
-                <span className="text-gray-300">Landline: </span>
+                <span className="text-slate-800">Landline: </span>
               </div> */}
               <div className="flex items-center space-x-3">
-                <MapPin className="w-10 h-10 text-[#0a1f3d]" />
-                <span className="text-gray-300">
+                <MapPin className="w-10 h-10 text-[#ECF4E8]" />
+                <span className="text-slate-800">
                   No 70/28, Anthony Udaiyar Street, Manavely, ChinnaVeeramPattinam, <br />Puducherry, 605007
                   {/* Next to Radisson Hotel, Near Eden Beach, via Pondy-Cuddalore Road.<br />
                   C/o. Dr. Darshan Savery */}
@@ -189,25 +189,25 @@ const Footer = () => {
 
         {/* Bottom Bar */}
         <div className="border-t border-[#0a1f3d] mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-300 text-sm">
+          <p className="text-slate-800 text-sm">
             © 2025 Estuary Dreamz BOATEL. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <a
               href="#"
-              className="text-gray-300 hover:text-white text-sm transition-colors"
+              className="text-slate-800 hover:text-white text-sm transition-colors"
             >
               Privacy Policy
             </a>
             <a
               href="#"
-              className="text-gray-300 hover:text-white text-sm transition-colors"
+              className="text-slate-800 hover:text-white text-sm transition-colors"
             >
               Terms of Service
             </a>
             <a
               href="#"
-              className="text-gray-300 hover:text-white text-sm transition-colors"
+              className="text-slate-800 hover:text-white text-sm transition-colors"
             >
               Cookie Policy
             </a>
